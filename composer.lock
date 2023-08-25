@@ -4,8 +4,68 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aa322c53454393ed775cfe4807d54a50",
+    "content-hash": "986b1d27b12c738ad9b2eca16ca951b9",
     "packages": [
+        {
+            "name": "bref/extra-php-extensions",
+            "version": "1.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brefphp/extra-php-extensions.git",
+                "reference": "0a915e16d33d33133094fa2f84d43508508f3f94"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brefphp/extra-php-extensions/zipball/0a915e16d33d33133094fa2f84d43508508f3f94",
+                "reference": "0a915e16d33d33133094fa2f84d43508508f3f94",
+                "shasum": ""
+            },
+            "conflict": {
+                "bref/bref": "<2.0.0"
+            },
+            "require-dev": {
+                "async-aws/core": "^1.7",
+                "async-aws/lambda": "^1.1",
+                "bref/logger": "^1.0",
+                "mnapoli/silly": "^1.7",
+                "mnapoli/silly-php-di": "^1.2",
+                "php-di/php-di": "^6.3",
+                "symfony/finder": "^5.2",
+                "symfony/http-client": "5.3.8",
+                "symfony/process": "^5.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tobias Nyholm",
+                    "email": "tobias.nyholm@gmail.com"
+                }
+            ],
+            "description": "Extra PHP extensions for your lambda application.",
+            "support": {
+                "issues": "https://github.com/brefphp/extra-php-extensions/issues",
+                "source": "https://github.com/brefphp/extra-php-extensions/tree/1.2.5"
+            },
+            "funding": [
+                {
+                    "url": "https://bref.sh/#enterprise",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/mnapoli",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-08-23T16:33:34+00:00"
+        },
         {
             "name": "brick/math",
             "version": "0.11.0",
